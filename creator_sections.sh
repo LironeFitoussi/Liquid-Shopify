@@ -13,4 +13,6 @@ for ((i=1; i<=num_folders; i++)); do
   
   # Create a .gitkeep file inside the folder
   touch "${1}${i}/.gitkeep"
+
+  mkdir "${1}${i}/Lessons"
 done
